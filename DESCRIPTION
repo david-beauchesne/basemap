@@ -1,0 +1,24 @@
+Package: basemap
+Type: R Package
+Title: Collection of data accessible through lazy load that I use in base maps in various projects
+Version: 1.0.0
+Authors@R: c(
+    person(given = "David",
+           family = "Beauchesne",
+           role = c("aut", "cre"),
+           email = "david.beauchesne@hotmail.com"))
+Description: Collection of data accessible through lazy load that I use in base maps in various projects
+URL: https://github.com/david-beauchesne/basemap
+BugReports: https://github.com/david-beauchesne/basemap/issues
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 4.0),
+    raster(>= 3.4-13),
+    sf (>= 0.9-7),
+    stars (>= 0.5-1)
+Imports:
+Suggests:
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
